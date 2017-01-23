@@ -1,0 +1,20 @@
+
+{
+    "title": "The Amazing Spider-man",
+    "release_date": "03/07/2012",
+    "director": "Marc Webb",
+    "cast": [
+             {
+             "name": "Andrew Garfield",
+             "character": "Peter Parker"
+             },
+             {
+             "name": "Emma Stone",
+             "character": "Gwen Stacy"
+             },
+             {
+             "name": "Rhys Ifans",
+             "character": "Dr. Curt Connors"
+             }
+             ]
+}

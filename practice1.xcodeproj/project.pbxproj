@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25783C5B1E2FBEC3004D6B2E /* sidemenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25783C5A1E2FBEC3004D6B2E /* sidemenuViewController.m */; };
+		2599A5A81E277B10007C1494 /* File.json in Resources */ = {isa = PBXBuildFile; fileRef = 2599A5A71E277B10007C1494 /* File.json */; };
+		2599A5AB1E2784C0007C1494 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2599A5AA1E2784C0007C1494 /* libsqlite3.dylib */; };
 		25B12BAF1E1E9FD600D07164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B12BAE1E1E9FD600D07164 /* main.m */; };
 		25B12BB21E1E9FD600D07164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B12BB11E1E9FD600D07164 /* AppDelegate.m */; };
 		25B12BB51E1E9FD600D07164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B12BB41E1E9FD600D07164 /* ViewController.m */; };
@@ -16,6 +19,11 @@
 		25B12BC01E1E9FD600D07164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B12BBE1E1E9FD600D07164 /* LaunchScreen.storyboard */; };
 		25B12BCB1E1E9FD600D07164 /* practice1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B12BCA1E1E9FD600D07164 /* practice1Tests.m */; };
 		25B12BD61E1E9FD600D07164 /* practice1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B12BD51E1E9FD600D07164 /* practice1UITests.m */; };
+		25B12BE81E1EA3AE00D07164 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B12BE71E1EA3AE00D07164 /* TableViewCell.m */; };
+		25C002521E2E49620010D909 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C002511E2E49620010D909 /* SWRevealViewController.m */; };
+		25C002561E2E51460010D909 /* xibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C002541E2E51460010D909 /* xibTableViewCell.m */; };
+		25C002571E2E51460010D909 /* xibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C002551E2E51460010D909 /* xibTableViewCell.xib */; };
+		25C1CE081E263F430027F1A4 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C1CE071E263F430027F1A4 /* secondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25783C591E2FBEC3004D6B2E /* sidemenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sidemenuViewController.h; sourceTree = "<group>"; };
+		25783C5A1E2FBEC3004D6B2E /* sidemenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sidemenuViewController.m; sourceTree = "<group>"; };
+		2599A5A71E277B10007C1494 /* File.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = File.json; sourceTree = "<group>"; };
+		2599A5AA1E2784C0007C1494 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 		25B12BAA1E1E9FD500D07164 /* practice1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practice1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B12BAE1E1E9FD600D07164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25B12BB01E1E9FD600D07164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +65,15 @@
 		25B12BD11E1E9FD600D07164 /* practice1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practice1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B12BD51E1E9FD600D07164 /* practice1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = practice1UITests.m; sourceTree = "<group>"; };
 		25B12BD71E1E9FD600D07164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B12BE61E1EA3AE00D07164 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		25B12BE71E1EA3AE00D07164 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		25C002501E2E49620010D909 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		25C002511E2E49620010D909 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		25C002531E2E51460010D909 /* xibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xibTableViewCell.h; sourceTree = "<group>"; };
+		25C002541E2E51460010D909 /* xibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xibTableViewCell.m; sourceTree = "<group>"; };
+		25C002551E2E51460010D909 /* xibTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xibTableViewCell.xib; sourceTree = "<group>"; };
+		25C1CE061E263F430027F1A4 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		25C1CE071E263F430027F1A4 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2599A5AB1E2784C0007C1494 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2599A5A91E2784C0007C1494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2599A5AA1E2784C0007C1494 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		25B12BA11E1E9FD500D07164 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +117,7 @@
 				25B12BC91E1E9FD600D07164 /* practice1Tests */,
 				25B12BD41E1E9FD600D07164 /* practice1UITests */,
 				25B12BAB1E1E9FD500D07164 /* Products */,
+				2599A5A91E2784C0007C1494 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +134,22 @@
 		25B12BAC1E1E9FD500D07164 /* practice1 */ = {
 			isa = PBXGroup;
 			children = (
+				25C002501E2E49620010D909 /* SWRevealViewController.h */,
+				25C002511E2E49620010D909 /* SWRevealViewController.m */,
 				25B12BB01E1E9FD600D07164 /* AppDelegate.h */,
 				25B12BB11E1E9FD600D07164 /* AppDelegate.m */,
 				25B12BB31E1E9FD600D07164 /* ViewController.h */,
 				25B12BB41E1E9FD600D07164 /* ViewController.m */,
+				2599A5A71E277B10007C1494 /* File.json */,
+				25C1CE061E263F430027F1A4 /* secondViewController.h */,
+				25C1CE071E263F430027F1A4 /* secondViewController.m */,
+				25783C591E2FBEC3004D6B2E /* sidemenuViewController.h */,
+				25783C5A1E2FBEC3004D6B2E /* sidemenuViewController.m */,
+				25C002531E2E51460010D909 /* xibTableViewCell.h */,
+				25C002541E2E51460010D909 /* xibTableViewCell.m */,
+				25C002551E2E51460010D909 /* xibTableViewCell.xib */,
+				25B12BE61E1EA3AE00D07164 /* TableViewCell.h */,
+				25B12BE71E1EA3AE00D07164 /* TableViewCell.m */,
 				25B12BB61E1E9FD600D07164 /* Main.storyboard */,
 				25B12BBC1E1E9FD600D07164 /* Assets.xcassets */,
 				25B12BBE1E1E9FD600D07164 /* LaunchScreen.storyboard */,
@@ -250,6 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B12BC01E1E9FD600D07164 /* LaunchScreen.storyboard in Resources */,
+				25C002571E2E51460010D909 /* xibTableViewCell.xib in Resources */,
+				2599A5A81E277B10007C1494 /* File.json in Resources */,
 				25B12BBD1E1E9FD600D07164 /* Assets.xcassets in Resources */,
 				25B12BB81E1E9FD600D07164 /* Main.storyboard in Resources */,
 			);
@@ -276,9 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C002521E2E49620010D909 /* SWRevealViewController.m in Sources */,
 				25B12BB51E1E9FD600D07164 /* ViewController.m in Sources */,
+				25B12BE81E1EA3AE00D07164 /* TableViewCell.m in Sources */,
+				25C002561E2E51460010D909 /* xibTableViewCell.m in Sources */,
 				25B12BB21E1E9FD600D07164 /* AppDelegate.m in Sources */,
 				25B12BBB1E1E9FD600D07164 /* practice1.xcdatamodeld in Sources */,
+				25C1CE081E263F430027F1A4 /* secondViewController.m in Sources */,
+				25783C5B1E2FBEC3004D6B2E /* sidemenuViewController.m in Sources */,
 				25B12BAF1E1E9FD600D07164 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +561,7 @@
 				25B12BDC1E1E9FD600D07164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25B12BDD1E1E9FD600D07164 /* Build configuration list for PBXNativeTarget "practice1Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +570,7 @@
 				25B12BDF1E1E9FD600D07164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25B12BE01E1E9FD600D07164 /* Build configuration list for PBXNativeTarget "practice1UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +579,7 @@
 				25B12BE21E1E9FD600D07164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
